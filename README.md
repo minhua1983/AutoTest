@@ -12,6 +12,9 @@
 ## 项目结构
 * AutoTest，winform主程序
 
-## 其他说明
+## 控件说明
 * AutoTest.UI\Controls\MyWebBrowser.cs
 这是一个继承于WebBrowser的自定义控件，主要实现了基于windows底层API的截图功能。
+
+## 配置文档
+见config.json
