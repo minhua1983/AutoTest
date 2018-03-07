@@ -1,0 +1,7 @@
+.wnjbk/
+.vs
+*.suo
+*/bin/
+*/obj/
+*/log/
+*.Publish/
