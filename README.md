@@ -9,10 +9,9 @@
 ## 项目环境
 * .net framework 4.5.2
 
-## 所需额外加载nuget包
-* Microsoft.CodeAnalysis 
-* Microsoft.VisualStudio.TextTemplating
-
 ## 项目结构
 * AutoTest，winform主程序
 
+## 其他说明
+* AutoTest.UI\Controls\MyWebBrowser.cs
+这是一个继承于WebBrowser的自定义控件，主要实现了基于windows底层API的截图功能。
