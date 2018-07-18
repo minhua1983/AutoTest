@@ -1,6 +1,6 @@
 ﻿{
   "Title": "模拟用户行为",
-  "Url": "http://www.vipabc.com",
+  "Url": "https://www.baidu.com/",
   "ActionList": [
     {
       "Title": "在首页中，关闭弹出框，点击“关于我们”的链接",
@@ -14,14 +14,6 @@
           "Invoke": ""
         },
         {
-          "Title": "关闭弹出框",
-          "Id": "drainage-close",
-          "Pattern": "",
-          "Value": "",
-          "Script": "",
-          "Invoke": "click"
-        },
-        {
           "Title": "调用showAlert函数",
           "Id": "",
           "Pattern": "",
@@ -30,85 +22,17 @@
           "Invoke": ""
         },
         {
-          "Title": "点击“关于我们”的链接",
-          "Id": "navbar-collapse",
-          "Pattern": "ul[1]/li[5]/a[1]",
-          "Value": "",
-          "Script": "",
-          "Invoke": "click"
-        }
-      ]
-    },
-    {
-      "Title": "在“关于我们”的页面中，点击“更多”的链接",
-      "StepList": [
-        {
-          "Title": "点击“更多”的链接",
-          "Id": "",
-          "Pattern": "div[7]/div[2]/div[2]/div[1]/a[1]",
-          "Value": "",
-          "Script": "",
-          "Invoke": "click"
-        }
-      ]
-    },
-    {
-      "Title": "在“更多”的页面中，点击“vipabc正式任命汤峥嵘为首席技术官”的链接",
-      "StepList": [
-        {
-          "Title": "点击“vipabc正式任命汤峥嵘为首席技术官”的链接",
-          "Id": "",
-          "Pattern": "div[3]/div[1]/div[2]/ul[1]/li[8]/div[2]/a[1]",
-          "Value": "",
-          "Script": "",
-          "Invoke": "click"
-        }
-      ]
-    },
-    {
-      "Title": "在“vipabc正式任命汤峥嵘为首席技术官”的页面中，点击“登录 | Login”，输入帐号和密码，点击登录，登录成功后会自动转跳到“会员中心”",
-      "StepList": [
-        {
-          "Title": "点击“登录 | Login”",
-          "Id": "navbar-collapse",
-          "Pattern": "ul[2]/li[2]/p[1]",
-          "Value": "",
-          "Script": "",
-          "Invoke": "click"
-        },
-        {
-          "Title": "输入帐号",
-          "Id": "js-login-normal-email",
+          "Title": "在输入框赋值",
+          "Id": "kw",
           "Pattern": "",
-          "Value": "marcusmin@vipabc.com",
+          "Value": "vipabc",
           "Script": "",
           "Invoke": ""
         },
         {
-          "Title": "输入密码",
-          "Id": "js-login-normal-password",
+          "Title": "点击“百度一下”",
+          "Id": "su",
           "Pattern": "",
-          "Value": "mM201612",
-          "Script": "",
-          "Invoke": ""
-        },
-        {
-          "Title": "点击登录，登录成功后会自动转跳到“会员中心”",
-          "Id": "js-login-normal",
-          "Pattern": "button[1]",
-          "Value": "",
-          "Script": "",
-          "Invoke": "click"
-        }
-      ]
-    },
-    {
-      "Title": "在“会员中心”的页面中，点击退出，并自动返回到首页",
-      "StepList": [
-        {
-          "Title": "点击退出，并自动返回到首页",
-          "Id": "content",
-          "Pattern": "div[1]/div[2]/div[1]/div[2]/div[3]/a[1]",
           "Value": "",
           "Script": "",
           "Invoke": "click"
